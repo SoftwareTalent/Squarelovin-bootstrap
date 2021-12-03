@@ -1,0 +1,59 @@
+﻿.barChart {
+}
+
+.barChart__row {
+    display: block;
+    align-items: center;
+    margin-bottom: 6px;
+    width: 100%;
+}
+
+    .barChart__row:after {
+        content: " ";
+        display: table;
+        clear: both;
+    }
+
+.barChart__label {
+    float: left;
+    padding-right: 10px;
+    width: 44px;
+	/*font-family: Nunito;*/
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 15px;
+	letter-spacing: 0em;
+	text-align: right;
+
+}
+
+.barChart__value {
+    float: right;
+    padding-left: 10px;
+    width: 52px;
+	/*font-family: Nunito;*/
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 15px;
+	letter-spacing: 0em;
+	text-align: left;
+
+}
+
+.barChart__bar {
+    display: block;
+    overflow: hidden;
+    background: #DEE2E6;
+    height: 10px;
+	border-radius: 10px;
+	width: 75px;
+}
+
+.barChart__barFill {
+    display: block;
+    height: 100%;
+    width: 0;
+    background: #3FB990;
+}
